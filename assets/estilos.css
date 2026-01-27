@@ -901,6 +901,13 @@ small{
     cursor: pointer;
     text-shadow: 0 0 5px whitesmoke;
 }
+.contact-box nav{
+    display:flex;
+    flex-direction:column;
+}
+.contact-box nav a{
+    margin: 8px 0;
+}
 
 /* animaciones e importacion de fuentes*/
 @font-face{
