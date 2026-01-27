@@ -117,7 +117,7 @@ figure h1{
 /* aca empieza la informacion de introduccion, imagen, subtitulos, parrafos */
 .subtitle_welcome{
     font-family: "poppinsBold",Arial, Helvetica, sans-serif;
-    font-size:41px;
+    font-size:37px;
     /* padding: 10px; */
     color: whitesmoke;
     text-shadow: white 0 0 3px;
@@ -168,7 +168,7 @@ figure h1{
 
 }
 .contain_info_introduction article p{
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
     line-height: 30px;
 
@@ -177,8 +177,8 @@ figure h1{
     height: 120px;
 }
 .img_menu_principal{
-    width: 280px;
-    height:460px;
+    width: 230px;
+    height:410px;
     border-radius: 10px;
     z-index: 1;
     transition: all ease .4s;
@@ -192,7 +192,7 @@ figure h1{
     min-height: fit-content;
     justify-content: end;
     align-items: start;
-    margin-left: 10px;
+    margin-right: 40px;
 }
 
 
@@ -1119,6 +1119,7 @@ small{
     }
     .funcion_healthypath article{
         padding: 20px;
+        width: auto;
     }
     .funcion_healthypath header h3{
         width: fit-content;
