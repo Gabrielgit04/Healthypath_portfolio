@@ -508,19 +508,15 @@ figure h1{
     object-fit: cover;
     background-color: white;
     padding: 10px;
-    opacity: .8;
+    opacity:1;
     transition: all ease .4s;
     border-radius: 18px;
-}
-.carrusel_caps img:not(:hover){
-    filter: contrast(80%);
-    width: 80px;
+    filter: contrast(120%);
 }
 
 .carrusel_caps img:hover{
-    opacity: 1;
     width: 80px;
-    filter: contrast(120%);
+    scale:(1.2);
     cursor: crosshair; 
 }
 .carrusel_caps img:nth-child(2), .carrusel_caps img:nth-child(4){
@@ -900,9 +896,7 @@ small{
     cursor: pointer;
     text-shadow: 0 0 5px whitesmoke;
 }
-.contact-box nav li{
-    margin: 8px 0;
-    list-style-type:none;}
+
 /* animaciones e importacion de fuentes*/
 @font-face{
     font-family: "poppins";
@@ -1303,10 +1297,8 @@ small{
         > nav{
             > a{
                 margin: 5px 0;
+                font-size: 13px;
                 
-                > li{
-                    font-size: 13px;
-                }
             }
         }
     }
