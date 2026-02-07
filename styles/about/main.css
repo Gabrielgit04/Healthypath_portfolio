@@ -1,0 +1,23 @@
+/* ========================================
+   ESTILOS PÁGINA ABOUT US
+   Archivo principal - Importa todos los estilos
+   ======================================== */
+
+/* ----------------------------------------
+   Base / Globals
+   Reset, box-sizing, tipografía base
+   ---------------------------------------- */
+@import './others/globals.css';
+
+/* ----------------------------------------
+   Layout
+   Estructura de cabecera y pie de página
+   ---------------------------------------- */
+@import './layout/header.css';
+@import './layout/footer.css';
+
+/* ----------------------------------------
+   Secciones y componentes
+   Información, desarrolladores, tarjetas del equipo
+   ---------------------------------------- */
+@import './others/sections.css';

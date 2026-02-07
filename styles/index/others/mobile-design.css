@@ -1,0 +1,395 @@
+/* ========================================
+   RESPONSIVE - Diseño móvil (max-width: 768px)
+   ======================================== */
+@media(max-width: 768px) {
+    body {
+        overflow-x: hidden;
+        animation: aparecer 2s;
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    main {
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    header {
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+        height: fit-content;
+        padding: 2px;
+    }
+
+    /* html{
+        scroll-behavior: unset;
+    } */
+
+    .title {
+        display: none;
+    }
+
+    header figure h1 {
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+
+    .sobre_nosotros {
+        margin-right: 0px;
+        font-size: 12px;
+    }
+
+    .seccion_introduccion {
+        grid-template-columns: 1fr;
+        height: auto;
+        padding: 20px 30px;
+    }
+
+    .seccion_introduccion section {
+        grid-template-rows: auto;
+        row-gap: 10px;
+    }
+
+    .contain_info_introduction {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        margin: 0;
+        height: fit-content;
+    }
+
+    .contain_info_introduction article p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .contain_info_introduction article {
+        height: auto;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    /* .funcion_healthypath article, .funcion_healthypath header{
+        animation: aparecer 3s;
+    }
+    .funcion_healthypath p{
+        animation: aparecer 3s;
+    } */
+
+
+    .seccion_introduccion figure {
+        display: none;
+        /* ocultamos imágenes grandes en móvil */
+    }
+
+    .downloadApp {
+        width: 100%;
+        font-family: 'poppinsBold', Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        margin: 40px 0 0 0;
+    }
+
+    .seccion_introduccion a {
+        justify-content: center;
+        width: 100%;
+    }
+
+
+    .seccion_introduccion {
+        height: auto;
+        padding: 20px 10px;
+        background-attachment: scroll;
+    }
+
+    .seccion_introduccion p {
+        width: 100%;
+        max-width: 320px;
+        font-size: 14px;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .subtitle_welcome {
+        font-size: 28px;
+        text-align: center;
+        margin: 20px auto;
+        margin-bottom: 0;
+
+    }
+
+    .funcion_healthypath {
+        grid-template-columns: 100%;
+        height: auto;
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .funcion_healthypath header {
+        padding: 10px;
+        font-size: 14px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .funcion_healthypath article {
+        padding: 20px;
+        width: auto;
+    }
+
+    .funcion_healthypath header h3 {
+        width: fit-content;
+        text-align: center;
+    }
+
+    .funcion_healthypath p {
+        width: fit-content;
+        max-width: 320px;
+        font-size: 13px;
+        margin: 10px auto;
+        text-align: justify;
+    }
+
+    .funcion_healthypath .img-user-figure {
+        padding: 0;
+        width: 100%;
+
+        >img {
+            border-radius: 0;
+            width: 100%;
+        }
+    }
+
+    .dispone {
+        font-size: 20px;
+        padding: 4px;
+    }
+
+    .bento {
+        display: flex;
+        gap: 10px;
+        aspect-ratio: 10/16;
+        overflow-y: scroll;
+        position: relative;
+        width: auto;
+        scroll-snap-type: x mandatory;
+        overflow-y: hidden;
+        padding: 10px;
+        height: 450px;
+
+    }
+
+    .bento img {
+        height: 120px;
+        width: auto;
+        object-fit: cover;
+        border-radius: 12px;
+        scroll-snap-align: center;
+    }
+
+    .item-1,
+    .item-2,
+    .item-3,
+    .item-4,
+    .item-5 {
+        grid-column: unset;
+        grid-row: unset;
+        transform: unset;
+        height: fit-content;
+    }
+
+    .seccion_info {
+        padding: 0 10px;
+        margin-top: 50px;
+        height: fit-content;
+    }
+
+    .article-carrusel {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .subtitulo_carrusel {
+        font-size: 16px;
+        margin: 30px 0;
+        text-align: center;
+        transform: translateY(60px);
+
+    }
+
+    .section_carrusel {
+        margin: 30px 0;
+        background-color: transparent;
+    }
+
+    .carrusel_caps {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        background-color: transparent;
+        row-gap: 10px;
+        flex-direction: column;
+
+    }
+
+    .carrusel_caps img {
+        height: 400px;
+        width: 100%;
+        flex-grow: unset;
+        margin: 5px 0;
+        padding: 20px;
+        object-fit: cover;
+    }
+
+    .carrusel_caps img:not(:hover) {
+        filter: contrast(80%);
+        width: 230px;
+    }
+
+    .carrusel_caps img:hover {
+        width: 230px;
+        filter: contrast(120%);
+    }
+
+    .box_infoimportant {
+        flex-direction: column;
+        align-items: center;
+        height: fit-content;
+        width: fit-content;
+        margin: 50px auto;
+    }
+
+    .key-points-box {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, auto);
+        width: 100%;
+        height: auto;
+        gap: 30px;
+        padding-bottom: 0;
+    }
+
+    .objetivo,
+    .mision,
+    .vision {
+        grid-column: unset;
+        grid-row: unset;
+    }
+
+    .objetivo article,
+    .mision article,
+    .vision article {
+        padding: 25px;
+    }
+
+    .subtitulo-boxinfo {
+        font-size: 1em;
+        margin: -50px -50px 0 -50px;
+        border-radius: 0;
+        padding: 10px;
+
+
+    }
+
+    .subtitulo-boxinfo img {
+        width: 70px;
+        height: 60px;
+
+    }
+
+    .objetivo h4,
+    .mision h4,
+    .vision h4 {
+        font-size: 15px;
+        padding: 10px 0;
+    }
+
+    .subtitulo_organigrama {
+        font-size: 18px;
+        padding: 0;
+        margin: -30px -30px 0 -30px;
+        background-color: transparent;
+    }
+
+    .article-organigrama {
+        padding: 0;
+        margin-bottom: 50px;
+    }
+
+    .organigramaimg img {
+        width: 100%;
+        border-radius: 0;
+        height: auto;
+        /* box-shadow: 0 0 2px black; */
+    }
+
+
+    .servicios,
+    .soluciones {
+        width: 90%;
+        height: auto;
+        border-radius: 0;
+        padding: 0;
+    }
+
+    .service-img,
+    .solution-img {
+        display: none;
+    }
+
+    .servicios>article,
+    .soluciones>article {
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+    }
+
+
+    footer h4 {
+        font-size: 16px;
+        text-align: center;
+        letter-spacing: normal;
+    }
+
+    .contact-box {
+        margin-top: 17px;
+
+        >nav {
+            >a {
+                margin: 5px 0;
+                font-size: 13px;
+
+            }
+        }
+    }
+
+    .redes-sociales h4 {
+        font-size: 16px;
+        margin-bottom: 10px;
+
+        >article {
+            gap: 0 5px;
+
+            >a img {
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+
+    footer small {
+        font-size: 12px;
+        text-align: center;
+        text-indent: 0;
+    }
+
+    .copy {
+        padding: 10px;
+    }
+
+    .subtitulo_carrusel,
+    .subtitulo_organigrama {
+        margin: 20px 13px;
+
+    }
+}

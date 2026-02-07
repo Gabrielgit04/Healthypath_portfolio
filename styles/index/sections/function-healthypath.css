@@ -1,0 +1,59 @@
+/* ========================================
+   2. SECCIÓN FUNCIÓN DE HEALTHYPATH
+   (descripción de la app y imagen usuario)
+   ======================================== */
+
+.funcion_healthypath {
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    height: 400px;
+    margin-top: 100px;
+    min-height: fit-content;
+    background-color: #02202f;
+}
+
+.funcion_healthypath header {
+    padding: 10px;
+    font-family: var(--semi-Bold-Popp);
+    font-size: 15px;
+    z-index: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.funcion_healthypath header h3 {
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+
+.funcion_healthypath article {
+    background-color: white;
+    padding: 30px;
+    width: fit-content;
+}
+
+.funcion_healthypath p {
+    margin: 10px 0 20px 0;
+    text-align: justify;
+    font-family: var(--Poppins);
+    line-height: 28px;
+    width: auto;
+    font-size: 14px;
+    text-align: center;
+}
+
+.img-user-figure {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.user-cell-img {
+    width: auto;
+    border-radius: 5px;
+    height: 200px;
+}

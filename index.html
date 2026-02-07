@@ -1,132 +1,185 @@
-<!DOCTYPE html>
+<!doctype html>
+
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/estilos.css" />
-    <link rel="icon" href="img/logohealthy.png" type="image/png" />
-    <title>Healthypath</title>
-  </head>
 
-  <body>
-    <header>
-      <figure>
-        <img src="img/logohealthy.png" alt="healthypath logo" id="logo_h" />
-        <h1 class="title">Healthypath</h1>
+<head>
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta name="description"
+    content="Healthypath es la aplicación de salud y bienestar que te ayuda a optimizar tu estilo de vida. Actividad física, alimentación, sueño, cálculo de IMC, requerimiento proteico y chatbot interactivo. Descarga la app." />
+  <meta name="keywords"
+    content="Healthypath, salud, bienestar, app móvil, IMC, nutrición, actividad física, sueño, chatbot, estilo de vida saludable, Bipofalca" />
+  <meta name="author" content="Healthypath - Equipo UNEFA" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#000000" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Healthypath" />
+  <meta property="og:title" content="Healthypath - App de salud y bienestar" />
+  <meta property="og:description"
+    content="App móvil para optimizar tu estilo de vida. Actividad física, alimentación y sueño. Cálculo de IMC, requerimiento proteico y chatbot para asesoramiento personalizado. Descarga gratis." />
+  <meta property="og:image" content="https://healthypath-portfolio.vercel.app/img/screenshot.png" />
+  <meta property="og:image:alt" content="Captura de Healthypath - Aplicación de salud y bienestar" />
+  <meta property="og:locale" content="es_ES" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Healthypath - App de salud y bienestar" />
+  <meta name="twitter:description"
+    content="App móvil para optimizar tu estilo de vida. Actividad física, alimentación y sueño. IMC, requerimiento proteico y chatbot interactivo. Descarga gratis." />
+  <meta name="twitter:image" content="https://healthypath-portfolio.vercel.app/img/screenshot.png" />
+  <meta name="twitter:image:alt" content="Captura de Healthypath - Aplicación de salud y bienestar" />
+
+  <link rel="icon" href="img/logohealthy.png" type="image/png" />
+
+  <!-- URL canónica -->
+  <link rel="canonical" href="https://healthypath-portfolio.vercel.app/" />
+
+  <!-- Open Graph extra -->
+  <meta property="og:url" content="https://healthypath-portfolio.vercel.app/" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <!-- Twitter extra -->
+  <meta name="twitter:site" content="@Healthypath" />
+  <meta name="twitter:creator" content="@Healthypath" />
+
+  <!-- iOS / Android -->
+  <meta name="apple-mobile-web-app-title" content="Healthypath" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-touch-icon" href="img/logohealthy.png" />
+
+  <meta name="mobile-web-app-capable" content="yes" />
+
+  <!-- Idioma -->
+  <meta http-equiv="content-language" content="es" />
+
+  <title>Healthypath - App de salud y bienestar</title>
+
+  <link rel="stylesheet" href="./styles/index/main.css" />
+</head>
+
+<body>
+  <header>
+    <figure>
+      <img src="img/logohealthy.png" alt="healthypath logo" id="logo_h" />
+      <h1 class="title">Healthypath</h1>
+    </figure>
+
+    <section class="contain_info_icons">
+      <figure class="sobre_nosotros">
+        <a href="#footer-acerca">Acerca de</a>
       </figure>
+    </section>
+  </header>
 
-      <section class="contain_info_icons">
-        <figure class="sobre_nosotros">
-          <a href="#footer-acerca">Acerca de</a>
-        </figure>
-      </section>
-    </header>
-
-    <main tabindex='-1'>
-      <section class="seccion_introduccion">
-        <section>
-          <h2 class="subtitle_welcome">
-            Bienvenido a nuestro <br />
-            sitio oficial.
-          </h2>
-          <div class="contain_info_introduction">
-            <article>
-              <p>
-                Healthypath es la aplicación adecuada para ti, permítenos
-                ayudarte a sentir mejor con recomendaciones que te darán un
-                resultado satisfactorio.
-              </p>
-              <a
-                href="https://drive.google.com/file/d/1XcAqGsaRmLODf6LX0as-7j2HmzVsCbUe/view?usp=drive_link"
-                download="Healthypath.apk"
-                ><button class="downloadApp">Descargar</button></a
-              >
-            </article>
-          </div>
-        </section>
-        <figure>
-          <img
-            src="./img/views/principal-portrait.png"
-            alt="menuimg"
-            class="img_menu_principal"
-          />
-        </figure>
-
-      </section>
-
-      <article class="funcion_healthypath">
-        <header>
-          <h3>¿Cual es la función de healthypath?</h3>
-        </header>
-        <article>
-          <p>
-            Nuestra app móvil de salud y bienestar está diseñada para ayudar a
-            las personas a optimizar su estilo de vida de manera sencilla.
-            Abarca tres áreas clave: actividad física, alimentación y sueño,
-            proporcionando herramientas como cálculo de IMC y requerimiento
-            proteico. Además, cuenta con un chatbot interactivo para
-            asesoramiento personalizado. Esta es la versiona beta de nuestra
-            aplicacion "V-1.0".
-          </p>
-          <figure class="img-user-figure">
-            <img
-              src="./img/views/sosteniendo-cell.webp"
-              alt="usuario'sosteniendo'un'telefono"
-              class="user-cell-img" loading="lazy"
-            />
-          </figure>
-        </article>
-      </article>
-
-      <section class="seccion_info">
-        <h3 class="dispone">Dispone de estas secciones</h3>
-
-        <!-- caja del manu principal -->
-        <div class="bento">
-            <div class="item-1"><img src="./img/views/principal.jpg" alt="principal" loading="lazy"></div>
-            <div class="item-2"><img src="./img/views/sueno.jpeg" alt="hombre-durmiendo-sueno-sano" loading="lazy"></div>
-            <div class="item-3"><img src="./img/views/manu recomendaciones.jpeg" alt="recomendaciones-menu" loading="lazy"></div>
-            <div class="item-4"><img src="./img/views/nutritionview.jpeg" alt="nutrition-view-imc" loading="lazy"></div>
-            <div class="item-5"><img src="./img/views/activityphysique.jpeg" alt="actividad fisica imagen" loading="lazy"></div>
+  <main tabindex="-1">
+    <section class="seccion_introduccion">
+      <section>
+        <h2 class="subtitle_welcome">
+          Bienvenido a nuestro <br />
+          sitio oficial.
+        </h2>
+        <div class="contain_info_introduction">
+          <article>
+            <p>
+              Healthypath es la aplicación adecuada para ti, permítenos
+              ayudarte a sentir mejor con recomendaciones que te darán un
+              resultado satisfactorio.
+            </p>
+            <a href="https://drive.google.com/file/d/1XcAqGsaRmLODf6LX0as-7j2HmzVsCbUe/view?usp=drive_link"
+              download="Healthypath.apk"><button class="downloadApp">Descargar</button></a>
+          </article>
         </div>
-        <!-- caja carrusel de demas capturas de la aplicacion -->
-      <article class="article-carrusel">
-        <img src="./img/icons/man-workout.webp" alt="man-workout-img" class="man-workout-img" loading="lazy">
-        <h3 class="subtitulo_carrusel">La sección de actividad física cuenta con:</h3>
-      </article>
-        <section class="section_carrusel">
-          <div class="carrusel_caps">
-            <img src="img/views/dieta.jpeg" alt="dietaimg" loading="lazy"/>
-            <img src="img/views/aerobico.jpeg" alt="aerobicoimg" loading="lazy"/>
-            <img src="img/views/gym.jpeg" alt="gymimg" loading="lazy"/>
-            <img src="img/views/calistenia.jpeg" alt="calisteniaimg" loading="lazy"/>
-          </div>
-        </section>
       </section>
+      <figure>
+        <img src="./img/views/principal-portrait.png" alt="menuimg" class="img_menu_principal" />
+      </figure>
+    </section>
 
+    <article class="funcion_healthypath">
+      <header>
+        <h3>¿Cual es la función de healthypath?</h3>
+      </header>
+      <article>
+        <p>
+          Nuestra app móvil de salud y bienestar está diseñada para ayudar a
+          las personas a optimizar su estilo de vida de manera sencilla.
+          Abarca tres áreas clave: actividad física, alimentación y sueño,
+          proporcionando herramientas como cálculo de IMC y requerimiento
+          proteico. Además, cuenta con un chatbot interactivo para
+          asesoramiento personalizado. Esta es la versiona beta de nuestra
+          aplicacion "V-1.0".
+        </p>
+        <figure class="img-user-figure">
+          <img src="./img/views/sosteniendo-cell.webp" alt="usuario'sosteniendo'un'telefono" class="user-cell-img"
+            loading="lazy" />
+        </figure>
+      </article>
+    </article>
 
-      
-      <section class="box_infoimportant">
-        <div class="key-points-box">
+    <section class="seccion_info">
+      <h3 class="dispone">Dispone de estas secciones</h3>
+
+      <!-- caja del manu principal -->
+      <div class="bento">
+        <div class="item-1">
+          <img src="./img/views/principal.jpg" alt="principal" loading="lazy" />
+        </div>
+        <div class="item-2">
+          <img src="./img/views/sueno.jpeg" alt="hombre-durmiendo-sueno-sano" loading="lazy" />
+        </div>
+        <div class="item-3">
+          <img src="./img/views/manu recomendaciones.jpeg" alt="recomendaciones-menu" loading="lazy" />
+        </div>
+        <div class="item-4">
+          <img src="./img/views/nutritionview.jpeg" alt="nutrition-view-imc" loading="lazy" />
+        </div>
+        <div class="item-5">
+          <img src="./img/views/activityphysique.jpeg" alt="actividad fisica imagen" loading="lazy" />
+        </div>
+      </div>
+      <!-- caja carrusel de demas capturas de la aplicacion -->
+      <article class="article-carrusel">
+        <img src="./img/icons/man-workout.webp" alt="man-workout-img" class="man-workout-img" loading="lazy" />
+        <h3 class="subtitulo_carrusel">
+          La sección de actividad física cuenta con:
+        </h3>
+      </article>
+      <section class="section_carrusel">
+        <div class="carrusel_caps">
+          <img src="img/views/dieta.jpeg" alt="dietaimg" loading="lazy" />
+          <img src="img/views/aerobico.jpeg" alt="aerobicoimg" loading="lazy" />
+          <img src="img/views/gym.jpeg" alt="gymimg" loading="lazy" />
+          <img src="img/views/calistenia.jpeg" alt="calisteniaimg" loading="lazy" />
+        </div>
+      </section>
+    </section>
+
+    <section class="box_infoimportant">
+      <div class="key-points-box">
         <h3 class="subtitulo-boxinfo">
           Puntos clave en la creación de nuestra aplicación
-          <br><img src="./img/logohealthy.png" alt="logo-de-healthypath" loading="lazy">
+          <br /><img src="./img/logohealthy.png" alt="logo-de-healthypath" loading="lazy" />
         </h3>
         <article class="objetivo">
           <h4>Objetivos de la aplicación</h4>
           <article>
-          <ul>
-            <li>
-              Fomentar un estilo de vida saludable en la comunidad, brindando
-              información confiable sobre actividad física, nutrición y
-              descanso.
-            </li>
-            <li>
-              Facilitar el acceso a herramientas interactivas para el cálculo de
-              IMC, requerimientos nutricionales y evaluación de hábitos de
-              sueño.
-            </li>
-          </ul>
+            <ul>
+              <li>
+                Fomentar un estilo de vida saludable en la comunidad,
+                brindando información confiable sobre actividad física,
+                nutrición y descanso.
+              </li>
+              <li>
+                Facilitar el acceso a herramientas interactivas para el
+                cálculo de IMC, requerimientos nutricionales y evaluación de
+                hábitos de sueño.
+              </li>
+            </ul>
           </article>
         </article>
 
@@ -135,99 +188,102 @@
           <article>
             <p>
               Healthypath busca mejorar la salud y bienestar de las personas
-            mediante el seguimiento personalizado de su actividad física,
-            nutrición y sueño. Ofrecemos herramientas accesibles y
-            recomendaciones, facilitando la construcción de hábitos saludables
-            dentro de la comunidad de Bipofalca.
-          </p>
-        </article>
+              mediante el seguimiento personalizado de su actividad física,
+              nutrición y sueño. Ofrecemos herramientas accesibles y
+              recomendaciones, facilitando la construcción de hábitos
+              saludables dentro de la comunidad de Bipofalca.
+            </p>
+          </article>
         </article>
         <article class="vision">
           <h4>Visión de la aplicación</h4>
           <article>
             <p>
-            Ser la aplicación líder en bienestar integral, promoviendo hábitos
-            saludables en la comunidad de Bipofalca y generando un impacto
-            positivo en la calidad de vida de sus habitantes, y enseñando lo importante
-            que es cuidar de nuestra salud.
-          </p>
+              Ser la aplicación líder en bienestar integral, promoviendo
+              hábitos saludables en la comunidad de Bipofalca y generando un
+              impacto positivo en la calidad de vida de sus habitantes, y
+              enseñando lo importante que es cuidar de nuestra salud.
+            </p>
           </article>
         </article>
-        </div>
-      </section>
-      <article class="article-organigrama">
-        <h3 class="subtitulo_organigrama">Organigrama de nuestra aplicación</h3>
-        <figure class="organigramaimg">
-        <img src="img/organigrama.jpeg" alt="Organigrama" loading="lazy"/>
+      </div>
+    </section>
+    <article class="article-organigrama">
+      <h3 class="subtitulo_organigrama">Organigrama de nuestra aplicación</h3>
+      <figure class="organigramaimg">
+        <img src="img/organigrama.jpeg" alt="Organigrama" loading="lazy" />
       </figure>
     </article>
-      <div class="box_serv_sol">
-        <article class="servicios">
-          <article>
-
-          
+    <div class="box_serv_sol">
+      <article class="servicios">
+        <article>
           <h4>Servicios</h4>
           <p>
             Evaluación nutricional: Calcula el IMC y el requerimiento proteico
-            para mejorar la alimentación. <br /><br>
+            para mejorar la alimentación. <br /><br />
             Asesoramiento en hábitos de sueño: Proporciona información sobre
-            la calidad del descanso y consejos para mejorarla. <br/><br>
+            la calidad del descanso y consejos para mejorarla. <br /><br />
             Recomendaciones personalizadas: Ofrece sugerencias en función del
-            estado de salud y bienestar del usuario. <br /><br>
-            Chatbot interactivo: Permite responder dudas y ofrecer
-            orientación en temas de salud.
+            estado de salud y bienestar del usuario. <br /><br />
+            Chatbot interactivo: Permite responder dudas y ofrecer orientación
+            en temas de salud.
           </p>
-          </article>
-          <img src="./img/views/servicio-al-cliente.webp" alt="servicio-helathypath-example" class="service-img">
         </article>
-        <article class="soluciones">
-          <img src="./img/views/souciones-removebg-preview.webp" alt="soluciones-img" class="solution-img">
-          <article>
-
+        <img src="./img/views/servicio-al-cliente.webp" alt="servicio-helathypath-example" class="service-img" />
+      </article>
+      <article class="soluciones">
+        <img src="./img/views/souciones-removebg-preview.webp" alt="soluciones-img" class="solution-img" />
+        <article>
           <h4>Soluciones</h4>
           <p>
             Optimización del estilo de vida: Ayuda a las personas a adoptar
-            hábitos más saludables. <br /><br> Mejora del bienestar personal:
-            Facilita el acceso a información clave sobre nutrición, ejercicio y
-            descanso. <br /><br> Accesibilidad y facilidad de uso: Un espacio
-            digital intuitivo para el seguimiento del progreso personal.
-            <br /><br> Educación en salud: Brinda conocimientos confiables para
-            tomar mejores decisiones sobre bienestar.
+            hábitos más saludables. <br /><br />
+            Mejora del bienestar personal: Facilita el acceso a información
+            clave sobre nutrición, ejercicio y descanso. <br /><br />
+            Accesibilidad y facilidad de uso: Un espacio digital intuitivo
+            para el seguimiento del progreso personal. <br /><br />
+            Educación en salud: Brinda conocimientos confiables para tomar
+            mejores decisiones sobre bienestar.
           </p>
         </article>
-        </article>
-      </div>
+      </article>
+    </div>
+  </main>
 
-      <footer id="footer-acerca">
+  <footer id="footer-acerca">
+    <div class="contact-box">
+      <h4>ACERCA DE</h4>
+      <nav>
+        <a href="./about_us.html">Sobre nosotros</a>
+        <a href="#">Contacto</a>
+      </nav>
+    </div>
 
-        <div class="contact-box">
-          <h4>ACERCA DE</h4> 
-          <nav>
-            <a href="./about_us.html">Sobre nosotros</a>
-            <a href="#">Contacto</a>
-          </nav>
-        </div>
+    <div class="redes-sociales">
+      <h4>MIS REDES SOCIALES</h4>
+      <article>
+        <a href="https://github.com/Gabrielgit04" target="_blank"><img src="./img/icons/brand-github.svg"
+            alt="Gabrielgit04-github-page" /></a>
+        <a href="https://www.facebook.com/gabrielmoises.hernandezpina/?viewas=100000686899395" target="_blank"><img
+            src="./img/icons/brand-facebook.svg" alt="facebook-gabriel-hernandez" /></a>
+        <a href="https://www.instagram.com/hernandez_gabriel_04/" target="_blank"><img
+            src="./img/icons/brand-instagram.svg" alt="instagram-gabrel-hernandez" /></a>
+        <a href="https://discord.gg/RT9Xs23p" target="_blank"><img src="./img/icons/brand-discord.svg"
+            alt="discord-mori" /></a>
+      </article>
+    </div>
 
-        <div class="redes-sociales">
-          <h4>MIS REDES SOCIALES</h4>
-          <article>
-            <a href="https://github.com/Gabrielgit04" target="_blank"><img src="./img/icons/brand-github.svg" alt="Gabrielgit04-github-page"></a>
-            <a href="https://www.facebook.com/gabrielmoises.hernandezpina/?viewas=100000686899395" target="_blank"><img src="./img/icons/brand-facebook.svg" alt="facebook-gabriel-hernandez"></a>
-            <a href="https://www.instagram.com/hernandez_gabriel_04/" target="_blank"><img src="./img/icons/brand-instagram.svg" alt="instagram-gabrel-hernandez"></a>
-            <a href="https://discord.gg/RT9Xs23p" target="_blank"><img src="./img/icons/brand-discord.svg" alt="discord-mori"></a>
-          </article>
-        </div>
+    <article class="copy">
+      <hr />
+      <article>
+        <small>
+          Republica Bolivariana de Venezuela, Estado falcon, Punto Fijo de
+          2025.
+        </small>
+        <small>© 2025 Healthypath. Todos los derechos reservados.</small>
+      </article>
+    </article>
+  </footer>
+</body>
 
-        <article class="copy">
-          <hr/>
-          <article>
-            <small>
-              Republica Bolivariana de Venezuela, Estado falcon, Punto Fijo de 2025.
-            </small>
-            <small>© 2025 Healthypath. Todos los derechos reservados.</small>
-          </article>
-        </article>
-      </footer>
-    </main>
-  </body>
 </html>

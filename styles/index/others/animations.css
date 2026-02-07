@@ -1,0 +1,88 @@
+/* ========================================
+   ANIMACIONES
+   ======================================== */
+
+
+@keyframes respiration {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+@keyframes ap_left {
+    from {
+        opacity: 0;
+        visibility: hidden;
+        left: -10px;
+    }
+
+    to {
+        opacity: 1;
+        visibility: visible;
+        left: 0;
+
+    }
+
+}
+
+@keyframes ap_right {
+    from {
+        opacity: 0;
+        visibility: hidden;
+        right: 10px;
+    }
+
+    to {
+        opacity: 1;
+        visibility: visible;
+        right: 0px;
+
+    }
+
+}
+
+@keyframes minimize-header {
+    from {
+        background-color: #053952;
+    }
+
+    to {
+        background-color: rgba(5, 52, 84, 0.614);
+        backdrop-filter: blur(5px);
+        font-size: 18px;
+        letter-spacing: 0;
+        padding: 10px;
+    }
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-100px);
+    }
+
+    to {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+}
+
+@keyframes aparecer-side {
+    from {
+        opacity: 0;
+        visibility: hidden;
+        transform: translateX(-100px);
+    }
+
+    to {
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(0);
+    }
+}

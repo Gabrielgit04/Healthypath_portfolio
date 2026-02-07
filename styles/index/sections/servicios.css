@@ -1,0 +1,98 @@
+/* ========================================
+   6. SECCIÓN SERVICIOS Y SOLUCIONES
+   ======================================== */
+
+.box_serv_sol {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 30px 20px;
+    gap: 80px;
+    height: 700px;
+    min-height: fit-content;
+    min-width: fit-content;
+}
+
+.servicios {
+    width: 90%;
+    height: 380px;
+    margin: 10px 20px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    min-height: fit-content;
+
+}
+
+.servicios>article,
+.soluciones>article {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    min-width: none;
+    background-color: var(--color-secondary-gray);
+    height: 90%;
+    min-height: fit-content;
+    border-radius: 30% 10% 30% 0;
+    padding: 10px 10px;
+}
+
+.service-img,
+.solution-img {
+    width: 420px;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.solution-img img,
+.service-img img {
+    width: auto;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.soluciones {
+    width: 90%;
+    height: 440px;
+    margin: 10px 20px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    min-height: fit-content;
+}
+
+.servicios h4,
+.soluciones h4 {
+    text-align: center;
+    font-family: var(--semi-Bold-Popp);
+    font-size: 2.5em;
+    color: #053952;
+    border-radius: 5px;
+    padding: 4px;
+    text-transform: uppercase;
+}
+
+.servicios p,
+.soluciones p {
+    font-size: 14px;
+    text-align: start;
+    padding: 14px;
+    margin-top: 15px;
+    line-height: 1.8;
+    color: rgb(39, 32, 32);
+    font-family: var(--Poppins);
+}
+
+html body main div.box_serv_sol article.soluciones article {
+    height: fit-content !important;
+}
+
+.servicios > article:nth-child(1) {
+    height: fit-content;
+}

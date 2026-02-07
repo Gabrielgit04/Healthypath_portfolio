@@ -1,0 +1,158 @@
+/* ========================================
+   4. BOX PUNTOS CLAVE
+   (objetivo, misión, visión)
+   ======================================== */
+
+.box_infoimportant {
+    display: flex;
+    place-content: center;
+    background-color: rgb(220, 222, 225);
+    padding: 50px;
+    margin: 70px 0;
+}
+
+.key-points-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 200px);
+    gap: 40px;
+    padding-bottom: 35px;
+}
+
+.box_infoimportant article {
+    background-color: rgb(239, 236, 236);
+    border-radius: 20px;
+    height: fit-content;
+}
+
+.subtitulo-boxinfo {
+    grid-column: 1;
+    grid-row: 1 / 2;
+    background: linear-gradient(rgba(0, 0, 0, 0.755), rgba(0, 0, 0, 0.766)), url(/img/views/key-point.webp);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(8px);
+    border-radius: 6px 6px 20px 20px;
+    padding-block: 10px;
+}
+
+.subtitulo-boxinfo {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-family: var(--semi-Bold-Popp);
+    padding: 10px;
+    min-height: fit-content;
+
+}
+
+.subtitulo-boxinfo img {
+    width: 90px;
+    height: 80px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.objetivo {
+    grid-column: 2;
+    background-color: rgb(239, 236, 236);
+    min-height: fit-content;
+}
+
+.objetivo article {
+    padding-inline: 20px;
+    height: fit-content;
+    height: 90%;
+    display: flex;
+    align-items: center;
+
+}
+
+.mision article,
+.vision article {
+    padding-inline: 20px;
+    height: fit-content;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    line-height: 35px;
+}
+
+.mision {
+    grid-column: 1;
+    grid-row: 2 / 3;
+    background-color: rgb(239, 236, 236);
+    min-height: fit-content;
+
+
+}
+
+.vision {
+    grid-column: 2;
+    grid-row: 2 / 3;
+    background-color: rgb(239, 236, 236);
+    min-height: fit-content;
+
+}
+
+
+.objetivo h4 {
+    background-color: #f7ad19;
+    border-radius: 6px 6px 0 0;
+    color: var(#f4eded);
+    line-height: 35px;
+    text-align: center;
+    font-family: var(--semi-Bold-Popp);
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 0 0 1px darkslategray;
+}
+
+.mision h4 {
+    background-color: #2f9b61;
+    border-radius: 6px 6px 0 0;
+    color: var(--color-secondary-gray);
+    line-height: 35px;
+    text-align: center;
+    font-family: var(--semi-Bold-Popp);
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 0 0 1px darkslategray;
+
+}
+
+.vision h4 {
+    background-color: #02202f;
+    border-radius: 6px 6px 0 0;
+    color: var(--color-secondary-gray);
+    line-height: 35px;
+    text-align: center;
+    font-family: var(--semi-Bold-Popp);
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 0 0 1px darkslategray;
+
+}
+
+.vision p,
+.mision p,
+.objetivo ul {
+    font-size: 15px;
+    text-align: justify;
+    font-family: var(--Poppins);
+}
+
+.objetivo ul li {
+    margin: 8px 0;
+    list-style: inside;
+}
+
+.vision p {
+    line-height: 35px;
+}

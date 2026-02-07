@@ -1,0 +1,128 @@
+/* ========================================
+   1. SECCIÓN INTRODUCCIÓN (Hero / Bienvenida)
+   ======================================== */
+
+.subtitle_welcome {
+    font-family: "poppinsBold", Arial, Helvetica, sans-serif;
+    font-size: 37px;
+    /* padding: 10px; */
+    color: whitesmoke;
+    text-shadow: white 0 0 3px;
+    height: 100px;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    width: fit-content;
+    min-height: fit-content;
+    text-align: center;
+    margin: 20px 0 0 30px;
+
+}
+
+.seccion_introduccion {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/img//salud.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    height: 90dvh;
+    animation: aparecer 3s;
+    flex-wrap: wrap;
+    min-height: fit-content;
+    padding: 30px 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+}
+
+.seccion_introduccion section {
+    display: grid;
+    grid-template-rows: 150px 150px 100px;
+    row-gap: 20px;
+}
+
+.seccion_introduccion p {
+    color: whitesmoke;
+    margin: 20px 0 0 0;
+    width: 480px;
+    font-family: var(--Poppins);
+}
+
+.contain_info_introduction {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: fit-content;
+    margin: 0 0 0 30px;
+
+}
+
+.contain_info_introduction article p {
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+
+}
+
+.contain_info_introduction article {
+    height: 120px;
+}
+
+.img_menu_principal {
+    width: 230px;
+    height: 410px;
+    border-radius: 10px;
+    z-index: 1;
+    transition: all ease .4s;
+
+}
+
+
+.seccion_introduccion figure {
+    display: flex;
+    height: 100%;
+    min-height: fit-content;
+    justify-content: end;
+    align-items: start;
+    margin-right: 40px;
+}
+
+
+.img_menu_principal:hover {
+    scale: 1.04;
+    transition: all ease .4s;
+    z-index: 1;
+    filter: drop-shadow(0 0 10px whitesmoke);
+}
+
+.downloadApp {
+    text-align: center;
+    padding: 10px;
+    width: 300px;
+    margin: 40px 0 0 100px;
+    border-radius: 10px;
+    border: transparent;
+    font-family: var(--semi-Bold-Popp);
+    letter-spacing: 1.3px;
+    font-weight: bold;
+    box-shadow: whitesmoke 0 0 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #02202f;
+    transition: all ease .4s;
+}
+
+.seccion_introduccion a {
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    text-decoration: none;
+}
+
+.downloadApp:hover {
+    transform: scale(1.1);
+    transition: all ease .4s;
+    background-color: #02202f;
+    color: aliceblue;
+    border: none;
+    text-shadow: 0 0 7px whitesmoke;
+}

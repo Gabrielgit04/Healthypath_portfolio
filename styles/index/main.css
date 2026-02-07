@@ -1,0 +1,30 @@
+/* ========================================
+   HEALTHYPATH - Estilos principales (index)
+   Orden de carga: base → secciones → responsive
+   ======================================== */
+
+/* --- Base --- */
+@import './others/global.css';
+
+/* --- Layout principal --- */
+@import './layout/header.css';
+
+/* --- Secciones de contenido --- */
+@import './sections/hero.css';
+@import './sections/function-healthypath.css';
+@import './sections/info.css';
+@import './sections/box-puntos-clave.css';
+@import './sections/organigrama.css';
+@import './sections/servicios.css';
+
+/* --- UI --- */
+@import './ui/grid-bento.css';
+
+/* --- Layout pie de página --- */
+@import './layout/footer.css';
+
+/* --- Animaciones --- */
+@import './others/animations.css';
+
+/* --- Responsive (mobile) --- */
+@import './others/mobile-design.css';

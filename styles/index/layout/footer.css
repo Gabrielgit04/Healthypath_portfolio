@@ -1,0 +1,118 @@
+/* ========================================
+   FOOTER (Acerca de, redes sociales, copyright)
+   ======================================== */
+
+footer {
+    text-align: justify;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    height: 260px;
+    background-color: #053952;
+    padding: 15px 5px;
+}
+
+footer h4 {
+    font-size: 20px;
+    border-radius: 10px;
+    color: whitesmoke;
+    letter-spacing: 1.2px;
+    font-family: var(--semi-Bold-Popp);
+}
+
+footer .redes-sociales article {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: fit-content;
+}
+
+.copy {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    grid-column: 1 / -1;
+    margin-top: 20px;
+    min-height: fit-content;
+}
+
+.redes-sociales,
+.contact-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+.redes-sociales article {
+    display: flex;
+    gap: 0 10px;
+}
+
+.redes-sociales article a img {
+    width: 35px;
+    height: 30px;
+    object-fit: cover;
+    transition: all ease .4s;
+
+    &:hover {
+        transform: scale(1.2);
+        transition: all ease .4s;
+        cursor: pointer;
+    }
+}
+
+.redes-sociales h4 {
+    margin-bottom: 20px;
+}
+
+small {
+    color: white;
+    font-family: var(--Poppins);
+}
+
+.copy article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.contact-box a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'poppinsnormal', Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    transition: all ease .4s;
+}
+
+.contact-box {
+    min-height: fit-content;
+    margin-top: 35px;
+}
+
+.contacto ul {
+    margin-top: 0px;
+}
+
+.contact-box a:hover {
+    transform: scale(1.1);
+    transition: all ease .4s;
+    cursor: pointer;
+    text-shadow: 0 0 5px whitesmoke;
+}
+
+.contact-box nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-box nav a {
+    margin: 8px 0;
+}

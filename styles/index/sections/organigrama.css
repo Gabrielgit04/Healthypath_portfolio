@@ -1,0 +1,40 @@
+/* ========================================
+   5. SECCIÓN ORGANIGRAMA
+   ======================================== */
+
+.subtitulo_organigrama {
+    padding: 20px;
+    max-width: fit-content;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: var(--semi-Bold-Popp);
+    color: #053952;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.article-organigrama {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    background-color: lightblue;
+    margin-bottom: 90px;
+}
+
+.organigramaimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.organigramaimg img {
+    width: 700px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+
+}

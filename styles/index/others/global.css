@@ -1,0 +1,61 @@
+/* ========================================
+   RESET, FUENTES, SEPARADOR, ETC
+   ======================================== */
+
+/* reset and others */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(245, 251, 255);
+    position: relative;
+    --Poppins: 'poppins', Arial;
+    --semi-Bold-Popp: 'semiboldpoppins', Arial;
+    --color-secondary-blue: #2f8dbc;
+    --color-secondary-gray: #dfdbdb;
+}
+
+/* separator */
+hr {
+    background-color: rgba(255, 249, 249, 0.938);
+    width: 95%;
+    height: 2px;
+    border: none;
+
+}
+
+/* fonts */
+@font-face {
+    font-family: "poppins";
+    src: url(/fonts/poppins/Poppins-Italic.ttf) format("truetype");
+    font-weight: 200;
+
+}
+
+@font-face {
+    font-family: "poppinsnormal";
+    src: url(/fonts/poppins/Poppins-Light.ttf) format("truetype");
+    font-weight: 200;
+
+}
+
+@font-face {
+    font-family: "semiboldpoppins";
+    src: url(/fonts/poppins/Poppins-SemiBold.ttf) format("truetype");
+
+}
+
+@font-face {
+    font-family: "poppinsBold";
+    src: url(/fonts/poppins/Poppins-Bold.ttf) format("truetype");
+}

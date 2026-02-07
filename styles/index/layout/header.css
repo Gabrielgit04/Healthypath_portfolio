@@ -1,0 +1,97 @@
+/* ========================================
+   HEADER PRINCIPAL
+   ======================================== */
+header{
+    animation: aparecer linear 3s;
+    animation:minimize-header linear both;
+    animation-timeline:scroll(root block);
+    color: white;
+    /* background-color: #02202f; */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 111;
+
+}
+.title{
+    font-family: "poppinsBold",Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+header figure{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+
+    }
+
+figure h1{
+    margin-left: 10px;
+    font-size: 18px;
+    display: flex;
+    letter-spacing: 1px;
+    font-family: var(--Poppins);
+}
+
+#logo_h{
+    width: 50px;
+    height: 45px;
+    border-radius: 15px;
+    background-color: aliceblue;
+
+    
+}
+.sobre_nosotros{
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    font-family: var(--semi-Bold-Popp);
+}
+.contacto{
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+
+}
+
+
+.contain_info_icons{
+    display: flex;
+    margin-right: 10px;    
+}
+
+.sobre_nosotros a{
+    text-decoration: none;
+    color:aliceblue;
+    text-transform: uppercase;
+    padding: 5px;
+    border-bottom: solid transparent;
+}
+
+.sobre_nosotros a:hover{
+    cursor: pointer;
+    border-bottom:solid whitesmoke 2px;
+    transition:all ease  .6s;
+}
+.contacto a{
+    text-decoration: none;
+    color:aliceblue;
+    letter-spacing: 1px;
+    padding: 5px;
+    border-bottom: solid transparent;
+
+}
+
+.contacto a:hover{
+    cursor: pointer;
+    border-bottom:solid whitesmoke;
+    transition:all ease .6s;
+    transform: scale(1.1);
+    text-shadow: 0 0 5px whitesmoke;
+}
