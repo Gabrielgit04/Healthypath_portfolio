@@ -28,3 +28,6 @@
 
 /* --- Responsive (mobile) --- */
 @import './others/mobile-design.css';
+
+/* --- responsive (high-desktop) --- */
+@import './others/high-desktop.css';

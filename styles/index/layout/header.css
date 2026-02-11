@@ -6,14 +6,21 @@ header{
     animation:minimize-header linear both;
     animation-timeline:scroll(root block);
     color: white;
-    /* background-color: #02202f; */
+    background-color: #02202f;
     padding: 10px;
     display: flex;
-    justify-content: space-between;
+    place-content: center;
     position: sticky;
     top: 0;
     left: 0;
     z-index: 111;
+
+    >div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        min-width: 1200px;
+    }
 
 }
 .title{

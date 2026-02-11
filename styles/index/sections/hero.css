@@ -1,5 +1,5 @@
 /* ========================================
-   1. SECCIÓN INTRODUCCIÓN (Hero / Bienvenida)
+1. SECCIÓN INTRODUCCIÓN (Hero / Bienvenida)
    ======================================== */
 
 .subtitle_welcome {
@@ -19,12 +19,12 @@
 }
 
 .seccion_introduccion {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/img//salud.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../../img/salud.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
-    height: 90dvh;
+    height: auto;
     animation: aparecer 3s;
     flex-wrap: wrap;
     min-height: fit-content;
@@ -38,6 +38,7 @@
     display: grid;
     grid-template-rows: 150px 150px 100px;
     row-gap: 20px;
+    padding: 5px;
 }
 
 .seccion_introduccion p {
@@ -53,6 +54,7 @@
     justify-content: space-between;
     height: fit-content;
     margin: 0 0 0 30px;
+    row-gap: 40px;
 
 }
 
@@ -98,7 +100,7 @@
     text-align: center;
     padding: 10px;
     width: 300px;
-    margin: 40px 0 0 100px;
+    margin: 70px 0 0 100px;
     border-radius: 10px;
     border: transparent;
     font-family: var(--semi-Bold-Popp);

@@ -3,24 +3,32 @@
    ======================================== */
 
 header {
-    background-color: rgb(225, 252, 252);
-    padding: 4px;
-    box-shadow: 0 0 10px darkslategray;
+    background-color: #02202f;
     display: flex;
-    justify-content: space-between;
+    place-content: center;
+    font-family: 'poppinsbold', sans-serif;
+    text-transform: uppercase;
+    div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 1200px;
+        padding: 20px 0;
+    }
 }
 
-header h1 {
-    font-size: 28px;
-    color: darkslategray;
-    text-indent: 20px;
-    margin-right: 20px;
-    text-shadow: 0 0 10px black;
-    ;
+.creadores_title {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    width: fit-content;
 }
 
 #logoimg {
-    width: 70px;
-    height: 70px;
+    width: 55px;
+    height: 50px;
     margin-left: 20px;
+    background-color: white;
+    border-radius: 10px;
 }

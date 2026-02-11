@@ -1,0 +1,29 @@
+
+@media(min-width: 1400px) {
+    header div{
+        width: 100%;
+        min-width: none;
+    }
+    .seccion_introduccion{
+        height: auto;
+        section{
+            place-content: center;
+        }
+        .subtitle_welcome{
+            font-size: 48px;
+            margin:-7px 0 0 0 ;
+        }
+
+        .contain_info_introduction article p {
+            font-size: 16px;
+            text-align: center;
+            line-height: 30px;
+        
+        }
+            }
+    .img_menu_principal {
+        width: 300px;
+        height: 500px;
+    }
+
+}

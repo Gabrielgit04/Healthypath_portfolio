@@ -37,25 +37,25 @@ hr {
 /* fonts */
 @font-face {
     font-family: "poppins";
-    src: url(/fonts/poppins/Poppins-Italic.ttf) format("truetype");
+    src: url(../../../fonts/poppins/Poppins-Italic.ttf) format("truetype");
     font-weight: 200;
 
 }
 
 @font-face {
     font-family: "poppinsnormal";
-    src: url(/fonts/poppins/Poppins-Light.ttf) format("truetype");
+    src: url(../../../fonts/poppins/Poppins-Light.ttf) format("truetype");
     font-weight: 200;
 
 }
 
 @font-face {
     font-family: "semiboldpoppins";
-    src: url(/fonts/poppins/Poppins-SemiBold.ttf) format("truetype");
+    src: url(../../../fonts/poppins/Poppins-SemiBold.ttf) format("truetype");
 
 }
 
 @font-face {
     font-family: "poppinsBold";
-    src: url(/fonts/poppins/Poppins-Bold.ttf) format("truetype");
+    src: url(../../../fonts/poppins/Poppins-Bold.ttf)format("truetype");
 }

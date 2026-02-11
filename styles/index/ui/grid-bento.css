@@ -6,10 +6,11 @@
 .bento {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(3, 180px);
     gap: 15px;
     padding: 20px;
-    margin-top: 20px;
+    margin: 50px 0;
+    height: auto;
+    min-height: fit-content;
 }
 
 .bento img {
@@ -78,7 +79,7 @@
 
 .item-2,
 .item-4 {
-    transform: translateY(-160px);
+    transform: translateY(35px);
 }
 
 .item-1:hover::after {

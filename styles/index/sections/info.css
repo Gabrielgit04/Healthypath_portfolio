@@ -28,7 +28,7 @@
 
 /* Carrusel de imágenes */
 .section_carrusel {
-    margin: 20px 20px;
+    margin: 30px 20px;
     display: flex;
     justify-content: center;
 }
@@ -96,7 +96,7 @@
     align-items: center;
     flex-direction: column;
     /* background-color: aliceblue; */
-    transform: translateY(30px);
+    transform: translateY(40px);
 
 }
 

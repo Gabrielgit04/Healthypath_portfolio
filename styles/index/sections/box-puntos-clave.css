@@ -28,7 +28,7 @@
 .subtitulo-boxinfo {
     grid-column: 1;
     grid-row: 1 / 2;
-    background: linear-gradient(rgba(0, 0, 0, 0.755), rgba(0, 0, 0, 0.766)), url(/img/views/key-point.webp);
+    background: linear-gradient(rgba(0, 0, 0, 0.755), rgba(0, 0, 0, 0.766)), url(../../../img/views/key-point.webp);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
