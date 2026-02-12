@@ -381,9 +381,6 @@
             >a {
                 margin: 5px 0;
                 font-size: 17px;
-                &:not(:hover){
-                    scale: 0;
-                }
 
             }
         }
