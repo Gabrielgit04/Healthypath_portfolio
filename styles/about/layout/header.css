@@ -1,9 +1,9 @@
 /* ========================================
-   HEADER
+                    HEADER
    ======================================== */
 
 header {
-    background-color: #02202f;
+    background-color: #053952;
     display: flex;
     place-content: center;
     font-family: 'poppinsbold', sans-serif;
@@ -11,7 +11,6 @@ header {
     div{
         display: flex;
         align-items: center;
-        justify-content: space-between;
         width: 1200px;
         padding: 20px 0;
     }
@@ -19,10 +18,25 @@ header {
 
 .creadores_title {
     text-align: center;
-    color: white;
     font-size: 20px;
     padding: 10px;
     width: fit-content;
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+.back-home{
+    text-decoration: none;
+    transition: all ease-in-out .3s;
+    background-color: white;
+    color: #02202f;
+    border-radius: 10px;
+    border: solid 1px transparent;
+    &:hover{
+        transition: all ease-in-out .3s;
+        border: solid 1px transparent;
+
+    }
 }
 
 #logoimg {

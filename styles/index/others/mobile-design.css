@@ -172,13 +172,13 @@
         aspect-ratio: 10/16;
         overflow-y: scroll;
         position: relative;
-        width: auto;
+        width: 200px;
         scroll-snap-type: x mandatory;
         overflow-y: hidden;
-        padding: 10px;
-        height: 450px;
+        height: 440px;
 
     }
+
 
     .bento img {
         height: 120px;
@@ -203,6 +203,9 @@
         padding: 0 10px;
         margin-top: 50px;
         height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .article-carrusel {
@@ -300,10 +303,16 @@
     .objetivo h4,
     .mision h4,
     .vision h4 {
-        font-size: 15px;
+        font-size: 14px;
         padding: 10px 0;
     }
-
+    .vision p,
+    .mision p,
+    .objetivo ul {
+        font-size: 13px;
+        text-align: justify;
+    }
+    
     .subtitulo_organigrama {
         font-size: 18px;
         padding: 0;
@@ -323,6 +332,9 @@
         /* box-shadow: 0 0 2px black; */
     }
 
+    .box_serv_sol{
+        min-width: none;
+    }
 
     .servicios,
     .soluciones {
@@ -342,8 +354,16 @@
         width: 100%;
         height: auto;
         border-radius: 0;
+        h4{
+            font-size: 25px;
+        }
     }
 
+    #footer-acerca{
+        grid-template-rows: repeat(3,150px);
+        grid-template-columns: unset;
+        min-height: fit-content;
+    }
 
     footer h4 {
         font-size: 16px;
@@ -352,12 +372,18 @@
     }
 
     .contact-box {
-        margin-top: 17px;
+        
 
         >nav {
+            text-align: left;
+            width: 100%;
+            padding:10px  20px;
             >a {
                 margin: 5px 0;
-                font-size: 13px;
+                font-size: 17px;
+                &:not(:hover){
+                    scale: 0;
+                }
 
             }
         }
@@ -367,14 +393,6 @@
         font-size: 16px;
         margin-bottom: 10px;
 
-        >article {
-            gap: 0 5px;
-
-            >a img {
-                width: 20px;
-                height: 20px;
-            }
-        }
     }
 
     footer small {
@@ -382,9 +400,24 @@
         text-align: center;
         text-indent: 0;
     }
+    .redes-sociales{
+        article {
+            gap: 0 30px;
+
+            >a img {
+                width: 25px;
+                height: 25px;
+            }
+        }
+
+    }
 
     .copy {
         padding: 10px;
+        margin-top: 0;
+        article small{
+            margin-bottom: 5px;
+        }
     }
 
     .subtitulo_carrusel,
