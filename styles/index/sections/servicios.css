@@ -10,16 +10,17 @@
     margin-bottom: 20px;
     background-color: white;
     padding: 30px 20px;
-    gap: 80px;
-    height: 700px;
-    min-height: fit-content;
+
+    gap: 20px;
+
+    height: fit-content;
     min-width: fit-content;
 }
 
 .servicios {
     width: 90%;
-    height: 380px;
-    margin: 10px 20px;
+    height: fit-content;
+
     padding: 15px;
     display: flex;
     justify-content: space-between;
@@ -60,7 +61,6 @@
 .soluciones {
     width: 90%;
     height: 440px;
-    margin: 10px 20px;
     padding: 15px;
     display: flex;
     justify-content: space-between;

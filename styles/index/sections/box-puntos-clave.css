@@ -4,11 +4,11 @@
    ======================================== */
 
 .box_infoimportant {
-    display: flex;
-    place-content: center;
+    height: fit-content;
+    display: grid;
+
     background-color: rgb(220, 222, 225);
     padding: 50px;
-    margin: 70px 0;
 }
 
 .key-points-box {
