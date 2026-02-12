@@ -1,43 +1,48 @@
 /* ========================================
    HEADER PRINCIPAL
-   ======================================== */
-header{
+  ======================================== */
+
+.header {
     animation: aparecer linear 3s;
-    animation:minimize-header linear both;
-    animation-timeline:scroll(root block);
+    animation: minimize-header linear both;
+    animation-timeline: scroll(root block);
+
     color: white;
     background-color: #02202f;
-    padding: 10px;
-    display: flex;
-    place-content: center;
     position: sticky;
+
+    width: 100vw;
     top: 0;
     left: 0;
     z-index: 111;
-
-    >div{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        min-width: 1200px;
-    }
-
 }
-.title{
-    font-family: "poppinsBold",Arial, Helvetica, sans-serif;
+
+.wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    font-family: "poppinsBold", Arial, Helvetica, sans-serif;
     font-weight: bold;
     text-transform: uppercase;
 }
 
 
-header figure{
+.header figure {
     display: flex;
     padding: 10px;
     align-items: center;
 
-    }
+}
 
-figure h1{
+figure h1 {
     margin-left: 10px;
     font-size: 18px;
     display: flex;
@@ -45,22 +50,24 @@ figure h1{
     font-family: var(--Poppins);
 }
 
-#logo_h{
+#logo_h {
     width: 50px;
     height: 45px;
     border-radius: 15px;
     background-color: aliceblue;
 
-    
+
 }
-.sobre_nosotros{
+
+.sobre_nosotros {
     margin-right: 20px;
     justify-content: center;
     align-items: center;
     padding: 6px;
     font-family: var(--semi-Bold-Popp);
 }
-.contacto{
+
+.contacto {
     justify-content: center;
     align-items: center;
     padding: 6px;
@@ -68,37 +75,38 @@ figure h1{
 }
 
 
-.contain_info_icons{
+.contain_info_icons {
     display: flex;
-    margin-right: 10px;    
+    margin-right: 10px;
 }
 
-.sobre_nosotros a{
+.sobre_nosotros a {
     text-decoration: none;
-    color:aliceblue;
+    color: aliceblue;
     text-transform: uppercase;
     padding: 5px;
     border-bottom: solid transparent;
 }
 
-.sobre_nosotros a:hover{
+.sobre_nosotros a:hover {
     cursor: pointer;
-    border-bottom:solid whitesmoke 2px;
-    transition:all ease  .6s;
+    border-bottom: solid whitesmoke 2px;
+    transition: all ease .6s;
 }
-.contacto a{
+
+.contacto a {
     text-decoration: none;
-    color:aliceblue;
+    color: aliceblue;
     letter-spacing: 1px;
     padding: 5px;
     border-bottom: solid transparent;
 
 }
 
-.contacto a:hover{
+.contacto a:hover {
     cursor: pointer;
-    border-bottom:solid whitesmoke;
-    transition:all ease .6s;
+    border-bottom: solid whitesmoke;
+    transition: all ease .6s;
     transform: scale(1.1);
     text-shadow: 0 0 5px whitesmoke;
 }

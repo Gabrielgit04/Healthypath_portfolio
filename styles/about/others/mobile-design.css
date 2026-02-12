@@ -1,62 +1,64 @@
-
 @media (max-width: 767px) {
 
-    header div{
+    .header .wrapper {
         width: 100%;
-        padding-inline: 10px ;
         justify-content: center;
     }
 
-    .back-home{
+    .back-home {
         font-size: 15px;
     }
 
 
-.who-us-box{
-    flex-direction: column;
-    row-gap: 10px;
+    .who-us-box {
+        flex-direction: column;
+        row-gap: 10px;
 
-    img{
-        width: 100%;
-        height: auto;
-    }
-}
-
-.why-us-box{
-    article{
-    flex-direction: column;
-    row-gap: 10px;
-    }
-    img{
-        width: 100%;
-        height: auto;
-    }
-}
-
-.why-do-it{
-    flex-direction: column;
-    row-gap: 10px;
-
-    img{
-        width: 100%;
-        height: auto;
-    }
-    h2{
-        font-size: 20px;
+        img {
+            width: 100%;
+            height: auto;
+        }
     }
 
-}
-    .developers{
+    .why-us-box {
+        article {
+            flex-direction: column;
+            row-gap: 10px;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .why-do-it {
+        flex-direction: column;
+        row-gap: 10px;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+
+    }
+
+    .developers {
         display: flex;
         flex-direction: column;
         row-gap: 10px;
         align-items: center;
 
-        img{
+        img {
             width: 50%;
             height: auto;
         }
     }
+
     #one,
     #two,
     #tree,
@@ -70,18 +72,21 @@
         width: 250px;
         grid-column: unset;
 
-        &:hover{
+        &:hover {
             width: 250px;
         }
     }
-    #one img{
+
+    #one img {
         height: 250px;
         width: 280px;
         margin-left: -10px;
     }
-    #five img{
+
+    #five img {
         margin-left: -15px;
-    }   
+    }
+
     #one article,
     #two article,
     #tree article,
@@ -95,29 +100,31 @@
         place-content: center;
         width: 100%;
     }
-    .note{
-        display:none
+
+    .note {
+        display: none
     }
 
-    #footer-acerca{
-        grid-template-rows: repeat(3,150px);
+    .footer {
+        grid-template-rows: repeat(3, 150px);
         grid-template-columns: unset;
         min-height: fit-content;
     }
 
-    footer h4 {
+    .footer h4 {
         font-size: 16px;
         text-align: center;
         letter-spacing: normal;
     }
 
     .contact-box {
-        
+
 
         >nav {
             text-align: left;
             width: 100%;
-            padding:10px  20px;
+            padding: 10px 20px;
+
             >a {
                 margin: 5px 0;
                 font-size: 17px;
@@ -131,8 +138,9 @@
         margin-bottom: 10px;
 
     }
-    hr{
-        width:100% ;
+
+    hr {
+        width: 100%;
     }
 
     footer small {
@@ -140,7 +148,8 @@
         text-align: center;
         text-indent: 0;
     }
-    .redes-sociales{
+
+    .redes-sociales {
         article {
             gap: 0 30px;
 
@@ -155,7 +164,8 @@
     .copy {
         padding: 10px;
         margin-top: 0;
-        article small{
+
+        article small {
             margin-bottom: 5px;
         }
     }

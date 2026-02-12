@@ -2,17 +2,30 @@
    FOOTER (Acerca de, redes sociales, copyright)
    ======================================== */
 
-   footer {
+.footer {
+    height: fit-content;
+    background-color: #053952;
+    font-family: 'poppinsbold', sans-serif;
+
+    width: 100vw;
+}
+
+.footer .wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+
     text-align: justify;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, auto);
-    height: 260px;
+    height: fit-content;
     background-color: #053952;
     padding: 15px 5px;
     font-family: 'poppinsbold', sans-serif;
 }
-hr {
+
+.wrapper hr {
     width: 90%;
     height: 1px;
     background-color: #f0f0f0;
@@ -20,7 +33,8 @@ hr {
     margin: 0;
     grid-column: 1 / -1;
 }
-footer h4 {
+
+.footer h4 {
     font-size: 20px;
     border-radius: 10px;
     color: whitesmoke;
@@ -28,7 +42,7 @@ footer h4 {
     font-family: var(--semi-Bold-Popp);
 }
 
-footer .redes-sociales article {
+.footer .redes-sociales article {
     width: 100%;
     display: flex;
     justify-content: center;

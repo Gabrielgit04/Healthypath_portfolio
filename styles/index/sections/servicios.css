@@ -3,23 +3,36 @@
    ======================================== */
 
 .box_serv_sol {
+    background-color: white;
+
+    height: fit-content;
+    width: 100vw;
+
+    margin-bottom: 20px;
+}
+
+.box_serv_sol .wrapper {
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 20px;
-    background-color: white;
+
     padding: 30px 20px;
-    gap: 80px;
-    height: 700px;
-    min-height: fit-content;
-    min-width: fit-content;
+    margin: auto;
+    margin-bottom: 20px;
+
+    background-color: white;
+    gap: 20px;
+
+    height: fit-content;
+    width: 100%;
+    max-width: 1200px;
 }
 
 .servicios {
     width: 90%;
-    height: 380px;
-    margin: 10px 20px;
+    height: fit-content;
+
     padding: 15px;
     display: flex;
     justify-content: space-between;
@@ -60,7 +73,6 @@
 .soluciones {
     width: 90%;
     height: 440px;
-    margin: 10px 20px;
     padding: 15px;
     display: flex;
     justify-content: space-between;
