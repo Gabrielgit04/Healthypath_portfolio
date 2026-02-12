@@ -20,6 +20,9 @@
         justify-content: space-between;
         height: fit-content;
         padding: 2px;
+        div{
+            min-width:100%
+        }
     }
 
     /* html{
