@@ -73,6 +73,9 @@
         height: auto;
         width: 100%;
         margin: 10px 0;
+       a{
+          width:100%       }
+       
     }
 
     .seccion_introduccion figure {
