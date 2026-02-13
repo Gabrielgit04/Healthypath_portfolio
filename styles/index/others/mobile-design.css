@@ -114,6 +114,9 @@
         margin-bottom: 0;
 
     }
+   .img_menu_principal{
+      display:none;
+   }
 
     .funcion_healthypath .wrapper {
         grid-template-columns: 100%;
