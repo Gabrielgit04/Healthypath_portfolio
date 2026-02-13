@@ -62,7 +62,7 @@
     from {
         opacity: 0;
         visibility: hidden;
-        transform: translateY(-100px);
+        transform: translateY(-70px);
     }
 
     to {

@@ -17,7 +17,7 @@
     z-index: 111;
 }
 
-.wrapper {
+.header .wrapper {
     width: 100%;
     max-width: 1200px;
     margin: auto;

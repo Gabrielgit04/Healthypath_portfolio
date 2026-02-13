@@ -14,9 +14,10 @@
         overflow-x: hidden;
     }
 
-    header {
+    .header .wrapper {
         align-items: center;
         text-align: center;
+        flex-direction: column;
         justify-content: space-between;
         height: fit-content;
         padding: 2px;
@@ -33,7 +34,7 @@
         display: none;
     }
 
-    header figure h1 {
+    .header .wrapper figure h1 {
         font-size: 12px;
         text-transform: uppercase;
     }
@@ -43,13 +44,13 @@
         font-size: 12px;
     }
 
-    .seccion_introduccion {
+    .seccion_introduccion .wrapper {
         grid-template-columns: 1fr;
         height: auto;
         padding: 20px 30px;
     }
 
-    .seccion_introduccion section {
+    .seccion_introduccion .wrapper section {
         grid-template-rows: auto;
         row-gap: 10px;
     }
@@ -73,14 +74,6 @@
         width: 100%;
         margin: 10px 0;
     }
-
-    /* .funcion_healthypath article, .funcion_healthypath header{
-        animation: aparecer 3s;
-    }
-    .funcion_healthypath p{
-        animation: aparecer 3s;
-    } */
-
 
     .seccion_introduccion figure {
         display: none;
@@ -122,31 +115,31 @@
 
     }
 
-    .funcion_healthypath {
+    .funcion_healthypath .wrapper {
         grid-template-columns: 100%;
         height: auto;
         margin-top: 50px;
         width: 100%;
     }
 
-    .funcion_healthypath header {
+    .funcion_healthypath .wrapper header {
         padding: 10px;
         font-size: 14px;
         text-align: center;
         justify-content: center;
     }
 
-    .funcion_healthypath article {
+    .funcion_healthypath .wrapper article {
         padding: 20px;
         width: auto;
     }
 
-    .funcion_healthypath header h3 {
+    .funcion_healthypath .wrapper header h3 {
         width: fit-content;
         text-align: center;
     }
 
-    .funcion_healthypath p {
+    .funcion_healthypath .wrapper p {
         width: fit-content;
         max-width: 320px;
         font-size: 13px;
@@ -154,7 +147,7 @@
         text-align: justify;
     }
 
-    .funcion_healthypath .img-user-figure {
+    .funcion_healthypath .wrapper .img-user-figure {
         padding: 0;
         width: 100%;
 

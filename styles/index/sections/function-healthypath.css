@@ -4,6 +4,18 @@
    ======================================== */
 
 .funcion_healthypath {
+    width: 100vw;
+
+    height: fit-content;
+    background-color: #02202f;
+}
+
+
+.funcion_healthypath .wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+
     display: grid;
     grid-template-columns: 260px 1fr;
 
@@ -11,7 +23,7 @@
     background-color: #02202f;
 }
 
-.funcion_healthypath header {
+.funcion_healthypath .wrapper header {
     padding: 10px;
     font-family: var(--semi-Bold-Popp);
     font-size: 15px;
@@ -22,18 +34,18 @@
 
 }
 
-.funcion_healthypath header h3 {
+.funcion_healthypath .wrapper header h3 {
     color: whitesmoke;
     text-transform: uppercase;
 }
 
-.funcion_healthypath article {
+.funcion_healthypath .wrapper article {
     background-color: white;
     padding: 30px;
     width: fit-content;
 }
 
-.funcion_healthypath p {
+.funcion_healthypath .wrapper p {
     margin: 10px 0 20px 0;
     text-align: justify;
     font-family: var(--Poppins);

@@ -23,25 +23,37 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
+
     height: auto;
+    flex-wrap: wrap;
+    min-height: fit-content;
+    padding: 30px 50px;
+}
+
+.seccion_introduccion .wrapper {
+    height: auto;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+
     animation: aparecer 3s;
     flex-wrap: wrap;
     min-height: fit-content;
     padding: 30px 50px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-
 }
 
-.seccion_introduccion section {
+
+
+.seccion_introduccion .wrapper section {
     display: grid;
     grid-template-rows: 150px 150px 100px;
     row-gap: 20px;
     padding: 5px;
 }
 
-.seccion_introduccion p {
+.seccion_introduccion .wrapper p {
     color: whitesmoke;
     margin: 20px 0 0 0;
     width: 480px;
@@ -79,7 +91,7 @@
 }
 
 
-.seccion_introduccion figure {
+.seccion_introduccion .wrapper figure {
     display: flex;
     height: 100%;
     min-height: fit-content;
@@ -113,7 +125,7 @@
     transition: all ease .4s;
 }
 
-.seccion_introduccion a {
+.seccion_introduccion .wrapper a {
     display: flex;
     justify-content: center;
     width: fit-content;
