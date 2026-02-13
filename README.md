@@ -4,7 +4,7 @@ Sitio web oficial de **Healthypath**, una aplicación móvil de salud y bienesta
 
 ![Healthypath Logo](./img/logohealthy.png)
 
-![Screenshot](./img/screenshot.png)
+![Screenshot](./img/screenshot-healthypath-index.png)
 
 ## Descripción
 
