@@ -48,11 +48,14 @@
         grid-template-columns: 1fr;
         height: auto;
         padding: 20px 30px;
+        justify-content: center;
+
     }
 
     .seccion_introduccion .wrapper section {
         grid-template-rows: auto;
         row-gap: 10px;
+
     }
 
     .contain_info_introduction {
@@ -67,15 +70,16 @@
     .contain_info_introduction article p {
         font-size: 14px;
         line-height: 24px;
+
     }
 
     .contain_info_introduction article {
         height: auto;
         width: 100%;
-        margin: 10px 0;
-       a{
-          width:100%       }
-       
+        margin: 20px 0;
+                text-align: center;
+
+
     }
 
     .seccion_introduccion figure {
@@ -361,7 +365,7 @@
         }
     }
 
-    #footer-acerca{
+    .footer .wrapper{
         grid-template-rows: repeat(3,150px);
         grid-template-columns: unset;
         min-height: fit-content;
@@ -377,7 +381,7 @@
         
 
         >nav {
-            text-align: left;
+            text-align: center;
             width: 100%;
             padding:10px  20px;
             >a {

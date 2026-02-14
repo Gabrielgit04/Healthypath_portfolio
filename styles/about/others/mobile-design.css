@@ -50,7 +50,7 @@
     .developers {
         display: flex;
         flex-direction: column;
-        row-gap: 10px;
+        row-gap: 6px;
         align-items: center;
 
         img {
@@ -67,7 +67,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        border-radius: 10px;
+        border-radius: 14px;
         background-color: rgb(31, 26, 26);
         width: 250px;
         grid-column: unset;
@@ -105,7 +105,11 @@
         display: none
     }
 
-    .footer {
+    .footer{
+        height: auto;
+        min-height: fit-content;
+    }
+    .footer .wrapper{
         grid-template-rows: repeat(3, 150px);
         grid-template-columns: unset;
         min-height: fit-content;
@@ -121,7 +125,7 @@
 
 
         >nav {
-            text-align: left;
+            text-align: center;
             width: 100%;
             padding: 10px 20px;
 

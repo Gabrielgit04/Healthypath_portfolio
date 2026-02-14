@@ -112,7 +112,7 @@
     text-align: center;
     padding: 10px;
     width: 300px;
-    margin: 70px 0 0 100px;
+    margin: 70px 0 0 0;
     border-radius: 10px;
     border: transparent;
     font-family: var(--semi-Bold-Popp);
@@ -128,7 +128,6 @@
 .seccion_introduccion .wrapper a {
     display: flex;
     justify-content: center;
-    width: fit-content;
     text-decoration: none;
 }
 
