@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/contact/main.css">
+    <title>Contacto | HealthyPath</title>
+</head>
+<body>
+
+<section class="contact-container">
+    <header class="contact-header">
+        <h2>Contactanos</h2>
+        <p>Déjanos tus datos y un desarrollador de <strong>HealthyPath</strong> se pondrá en contacto contigo.</p>
+    </header>
+
+    <form action="https://formspree.io/f/xgollawj" method="POST" autocomplete="off">
+        <div class="form-group">
+            <input type="text" id="nombre" name="name" placeholder=" " required>
+            <label for="nombre">Nombre completo</label>
+        </div>
+
+        <div class="form-group">
+            <input type="email" id="email" name="email" placeholder=" " required>
+            <label for="email">Correo electrónico</label>
+        </div>
+
+        <div class="form-group">
+            <textarea id="mensaje" name="message" placeholder=" "required></textarea>
+            <label for="mensaje">¿Cómo podemos ayudarte?</label>
+        </div>
+
+        <button type="submit" class="submit-btn">Enviar mensaje</button>
+    </form>
+    <span class="hr-contain">
+        <hr>Or<hr>
+    </span>
+
+    <a href="https://api.whatsapp.com/send?phone=+584126562412&text=Hola, tengo un problema con la app, ¿podrias atenderme?" class="ws-btn" target="_blank"><img src="./img/icons/brand-whatsapp.svg" alt="whatsapp-logo"><span>Vía Whatsapp</span></a>
+
+
+    <footer class="info-footer">
+        © 2026 HealthyPath. Tus datos están protegidos.
+    </footer>
+</section>
+
+<section class="contact-decoration">
+    <article>
+        <a href="./index.html">Volver a inicio</a>
+
+    </article>
+    <figure class="background-decoration">
+        <img src="./img/logohealthy.png" alt="logo de healthypath">
+    </figure>
+
+
+</section>
+
+
+</body>
+</html>

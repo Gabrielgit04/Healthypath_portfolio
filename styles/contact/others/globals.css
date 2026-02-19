@@ -1,0 +1,53 @@
+/* ========================================
+   RESET Y ESTILOS BASE
+   ======================================== */
+   :root {
+    --primary-color: #4CAF50;
+    --secondary-color: #2E7D32;
+    --text-color: #333;
+    --bg-color: #f9fbf9;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 550px 1fr;
+    place-content: center;
+    font-family: 'poppinsBold', sans-serif;
+    background-color: var(--bg-color);
+    overflow: hidden;
+}
+
+
+/* =======================================
+    IMPORT FONTS
+   ======================================== */
+
+   @font-face {
+    font-family: "poppins";
+    src: url(../../../fonts/poppins/Poppins-Italic.ttf) format("truetype");
+    font-weight: 200;
+
+}
+
+@font-face {
+    font-family: "poppinsnormal";
+    src: url(../../../fonts/poppins/Poppins-Light.ttf) format("truetype");
+    font-weight: 500;
+
+}
+
+@font-face {
+    font-family: "semiboldpoppins";
+    src: url(../../../fonts/poppins/Poppins-SemiBold.ttf) format("truetype");
+
+}
+
+@font-face {
+    font-family: "poppinsBold";
+    src: url(../../../fonts/poppins/Poppins-Bold.ttf)format("truetype");
+}

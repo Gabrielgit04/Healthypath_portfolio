@@ -10,27 +10,19 @@
 @import './layout/header.css';
 
 /* --- Secciones de contenido --- */
-@import './sections/hero.css';
-@import './sections/function-healthypath.css';
-@import './sections/info.css';
-@import './sections/box-puntos-clave.css';
-@import './sections/organigrama.css';
-@import './sections/servicios.css';
-
+@import 'others/globals.css';
+@import './others/sections.css';
 /* --- UI --- */
-@import './ui/grid-bento.css';
 
 /* --- Layout pie de página --- */
 @import './layout/footer.css';
+@import './layout/header.css';
 
 /* --- Animaciones --- */
-@import './others/animations.css';
+@import './others/animation.css';
 
 /* --- Responsive (mobile) --- */
-@import './others/mobile-design.css';
 
 /* --- Responsive (high-desktop) --- */
-@import './others/high-desktop.css';
 
 /* --- Responsive (Tablet) --- */
-@import './others/tablet-design.css';

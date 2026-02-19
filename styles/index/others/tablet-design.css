@@ -1,0 +1,27 @@
+@media (max-width: 1024px) {
+    .header .wrapper {
+        width: 100%;
+    }
+    .subtitle-welcome{
+        font-size: 1.5rem;
+    }
+
+
+    .wrapper figure .img_menu_principal{
+        display: none;
+    }
+
+    .seccion_introduccion .wrapper{
+        grid-template-columns: 1fr;
+
+        section{
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+.contain_info_introduction article p{
+    text-align: center;
+    font-size: 1em;
+}
+}

@@ -1,0 +1,7 @@
+@keyframes upText{
+    100%{
+        transform: translateY(-24px);
+        background-color: white;
+        color: black;
+    }
+}
