@@ -8,36 +8,47 @@ header {
     place-content: center;
     font-family: 'poppinsbold', sans-serif;
     text-transform: uppercase;
+    padding: 20px;
     div{
         display: flex;
         align-items: center;
         width: 1200px;
-        padding: 20px 0;
+        padding: 20px;
     }
 }
 
 .creadores_title {
     text-align: center;
     font-size: 16px;
-    padding: 2px 4px;
-    width: fit-content;
+    padding: 4px;
+    background-color: white;
+    border-radius: 10px;
+    width:32px;
     display: flex;
     align-items: center;
+    height: 40px;
+    overflow: hidden;
     column-gap: 5px;
+    position: relative;
+    text-transform: none;
+    transition: width 0.3s ease-in-out;
+
+    &:hover{
+        padding: 2px 4px;
+        width: 160px;
+        overflow: hidden;
+        transition: width 0.3s ease-in-out;
+    }
+
 }
+
 .back-home{
     text-decoration: none;
-    transition: all ease-in-out .3s;
-    background-color: white;
-    color: #02202f;
-    border-radius: 8px;
-    border: solid 1px transparent;
-    &:hover{
-        transition: all ease-in-out .3s;
-        border: solid 1px transparent;
-
-    }
+    position: absolute;
+    color: #333;
+    font-family: 'semiboldpoppins';
 }
+
 
 #logoimg {
     width: 55px;
