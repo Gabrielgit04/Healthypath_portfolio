@@ -1,14 +1,20 @@
-@media(max-width:768px){
+@media(max-width:768px) and (min-width:300px){
+
     body{
-        grid-template-columns: 1fr;
-        overflow-y: scroll;
-        padding: 20px;
-        place-content: center;
+        grid-template-columns: 100%;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .contact-container{
+        height:fit-content;
+        margin: 20px 0;
     }
     .contact-header p{
         font-size: 13px;
         text-align: center;
     }
+
 
     .contact-decoration{
         display: none;
