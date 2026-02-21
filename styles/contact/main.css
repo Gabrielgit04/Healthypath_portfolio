@@ -22,7 +22,8 @@
 @import './others/animation.css';
 
 /* --- Responsive (mobile) --- */
-
+@import './others/mobile-design.css';
 /* --- Responsive (high-desktop) --- */
 
 /* --- Responsive (Tablet) --- */
+@import './others/tablet-design.css';

@@ -4,7 +4,7 @@
     border-radius: 15px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.05);
     width: 100%;
-    max-width: 500px;
+    max-width: fit-content;
     margin: 20px;
 }
 
@@ -19,6 +19,7 @@
     position: relative;
     padding: 5px 10px;
     font-family: 'poppinsnormal';
+
 }
 
 label {
@@ -107,9 +108,10 @@ textarea:focus + label,textarea:not(:placeholder-shown) + label {
 
     hr{
         height: 2px;
-        width: 40%;
+        width: 50%;
         border-radius: 10px;
-        
+        background-color: #333;
+
     }
     }
 
@@ -124,18 +126,41 @@ textarea:focus + label,textarea:not(:placeholder-shown) + label {
         }
         article{
             margin:10px 20px;
-
-        }
-        a{
-            text-decoration: none;
-            font-family: 'semiboldpoppins';
-            color: #0b4059;
-            background-color: whitesmoke;
-            padding: 2px 4px;
-            border-radius: 5px;
-            text-transform: uppercase;
+            height: fit-content;
         }
     }
+    .creadores_title {
+        text-align: center;
+        font-size: 16px;
+        padding: 4px;
+        background-color: white;
+        border-radius: 10px;
+        width:30px;
+        display: flex;
+        align-items: center;
+        height: 40px;
+        overflow: hidden;
+        margin: 10px;
+        column-gap: 5px;
+        position: relative;
+        transition: width 0.3s ease-in-out;
+
+        &:hover{
+            padding: 2px 4px;
+            width: 160px;
+            overflow: hidden;
+            transition: width 0.3s ease-in-out;
+        }
+
+    }
+    
+    .back-home{
+        text-decoration: none;
+        position: absolute;
+        color: #333;
+        font-family: 'semiboldpoppins';
+    }
+
 
     .background-decoration{
         display: flex;

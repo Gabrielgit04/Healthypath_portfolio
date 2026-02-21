@@ -30,7 +30,7 @@ header {
     transition: all ease-in-out .3s;
     background-color: white;
     color: #02202f;
-    border-radius: 15px;
+    border-radius: 8px;
     border: solid 1px transparent;
     &:hover{
         transition: all ease-in-out .3s;

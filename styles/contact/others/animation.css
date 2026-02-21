@@ -1,7 +1,7 @@
 @keyframes upText{
     100%{
-        transform: translateY(-24px);
+        transform: translateY(-110%);
         background-color: white;
-        color: black;
+        color: #0b6f85;
     }
 }
